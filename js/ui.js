@@ -121,3 +121,14 @@ function setSystemStatus(type, title, text) {
 function writeDebugOutput(message) {
   elements.debugOutput.textContent = message;
 }
+
+function showWelcomeToast() {
+  const toast = document.createElement("div");
+  toast.className = "welcome-toast";
+  toast.textContent = "¡Bienvenido a AgroControl Lab Pro!";
+  document.body.appendChild(toast);
+
+  window.setTimeout(() => {
+    toast.remove();
+  }, 3000);
+}

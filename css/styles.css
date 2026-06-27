@@ -162,4 +162,30 @@ tr:last-child td { border-bottom: 0; }
 }
 
 footer { padding: 24px clamp(18px, 4vw, 64px) 40px; color: var(--muted); text-align: center; }
+
+.welcome-toast {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translate(-50%, -20px);
+  z-index: 9999;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+  box-shadow: var(--shadow);
+  font-weight: 800;
+  letter-spacing: .02em;
+  opacity: 0;
+  pointer-events: none;
+  animation: welcomeToastIn 3s ease forwards;
+}
+
+@keyframes welcomeToastIn {
+  0% { opacity: 0; transform: translate(-50%, -20px); }
+  10% { opacity: 1; transform: translate(-50%, 0); }
+  85% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -20px); }
+}
+
 .hidden { display: none !important; }

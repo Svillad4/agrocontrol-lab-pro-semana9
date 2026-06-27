@@ -366,41 +366,41 @@ Marca cada punto antes de entregar:
 
 ### Ejecucion
 
-- [ ] Abri el proyecto en VS Code.
-- [ ] Ejecute el proyecto con Live Server.
-- [ ] La pagina carga correctamente.
-- [ ] La consola no muestra errores criticos al iniciar.
+- [x] Abri el proyecto en VS Code.
+- [x] Ejecute el proyecto con Live Server.
+- [x] La pagina carga correctamente.
+- [x] La consola no muestra errores criticos al iniciar.
 
 ### Funcionalidad
 
-- [ ] Cargue datos de prueba.
-- [ ] Registre una actividad valida.
-- [ ] Los datos aparecen en la tabla.
-- [ ] El dashboard se actualiza.
-- [ ] El grafico se actualiza.
-- [ ] Los datos permanecen despues de recargar la pagina.
+- [x] Cargue datos de prueba.
+- [x] Registre una actividad valida.
+- [x] Los datos aparecen en la tabla.
+- [x] El dashboard se actualiza.
+- [x] El grafico se actualiza.
+- [x] Los datos permanecen despues de recargar la pagina.
 
 ### Validaciones
 
-- [ ] Probe campos vacios.
-- [ ] Probe cantidad cero o negativa.
-- [ ] Probe fecha futura.
-- [ ] Probe responsable con menos de 3 caracteres.
-- [ ] Probe combinaciones incorrectas como leche en kilos o gasto en litros.
+- [x] Probe campos vacios.
+- [x] Probe cantidad cero o negativa.
+- [x] Probe fecha futura.
+- [x] Probe responsable con menos de 3 caracteres.
+- [x] Probe combinaciones incorrectas como leche en kilos o gasto en litros.
 
 ### Depuracion
 
-- [ ] Use la consola del navegador.
-- [ ] Use el inspector de elementos.
-- [ ] Use el depurador con al menos un breakpoint.
-- [ ] Active el error controlado.
-- [ ] Corrigi el error controlado.
+- [x] Use la consola del navegador.
+- [x] Use el inspector de elementos.
+- [] Use el depurador con al menos un breakpoint.
+- [x] Active el error controlado.
+- [x] Corrigi el error controlado.
 
 ### Entrega
 
-- [ ] Guarde capturas en la carpeta `evidencias`.
-- [ ] Realice una mejora pequena al proyecto.
-- [ ] Subi el proyecto a GitHub o lo comprimi para Moodle.
+- [x] Guarde capturas en la carpeta `evidencias`.
+- [x] Realice una mejora pequena al proyecto.
+- [x] Subi el proyecto a GitHub o lo comprimi para Moodle.
 
 ---
 

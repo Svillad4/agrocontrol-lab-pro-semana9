@@ -70,7 +70,6 @@ function simulateControlledError() {
   writeDebugOutput("Se activó un error controlado. Revisa la consola y ubica la línea exacta en debug-panel.js.");
   setSystemStatus("error", "Error controlado", "El sistema generó un error intencional para practicar depuración.");
 
-  // Error intencional: esta función no existe.
-  // Actividad del estudiante: comentar esta línea o cambiarla por systemCheck().
-  funcionQueNoExisteParaPracticarDebugger();
+  // Corregido: se reemplaza la llamada inexistente por la función real systemCheck().
+  systemCheck();
 }
